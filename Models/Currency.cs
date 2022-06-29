@@ -7,7 +7,7 @@ namespace ASGExchangeAPI.Models
     public class Currency
     {
         public long Id { get; set; }
-        public string? Name { get; set; }
-        public string? Code { get; set; }
+        public string? CurrencyName { get; set; }
+        public string? CurrencyCode { get; set; }
     }
 }
